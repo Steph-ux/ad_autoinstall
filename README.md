@@ -43,4 +43,5 @@ Il permet notamment :
 2. **Placer le script dans un dossier accessible**, ex : `C:\Scripts`
 3. **Lancer le script** :
    ```powershell
+    Set-ExecutionPolicy Bypass -Scope Process
    .\ad_autoinstall.ps1
